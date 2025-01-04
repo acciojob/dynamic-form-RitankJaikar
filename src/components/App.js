@@ -31,7 +31,7 @@ const App = () => {
             </div>
           ))
           :
-          <p>No fields from form</p>
+          <p>No fields in the form</p>
         }
       </form>
       <button onClick={addField}>Add Field</button>
