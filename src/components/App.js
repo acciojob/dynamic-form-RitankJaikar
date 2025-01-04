@@ -27,11 +27,11 @@ const App = () => {
           inputIds.map(id => (
             <div key={id}>
               <input />
-              <button onClick={() => deletefield(id)}>Delete</button>
+              <button className="delete" onClick={() => deletefield(id)}>Delete</button>
             </div>
           ))
           :
-          <div>No fields from form</div>
+          <p>No fields from form</p>
         }
       </form>
       <button onClick={addField}>Add Field</button>
